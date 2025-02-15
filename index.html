@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kid Store</title>
+    <link rel="icon" type="image/svg+xml" href="./assets/images/fortnite.svg">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-left">
+        <a href="#" class="navbar-logo">
+          <img src="./assets/images/fortnite.svg" alt="Logo" />
+        </a>
+      </div>
+      <div class="navbar-right">
+        <a
+          href="https://www.instagram.com/kidstore.peru"
+          target="_blank"
+          aria-label="Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/kidstore.pe"
+          target="_blank"
+          aria-label="Facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+        <a
+          href="https://api.whatsapp.com/send/?phone=51917932301&text&type=phone_number&app_absent=0"
+          target="_blank"
+          aria-label="WhatsApp"
+          ><i class="fa-brands fa-whatsapp"></i
+        ></a>
+        <a
+          href="https://discord.gg/kidstore"
+          target="_blank"
+          aria-label="Discord"
+          ><i class="fa-brands fa-discord"></i
+        ></a>
+      </div>
+    </nav>
+    <main class="container">
+      <h1 class="pixel-title">Kid Store</h1>
+      <div id="shop">
+        <p>Cargando información de la tienda...</p>
+      </div>
+    </main>
+    <div id="preview-modal" class="modal" style="display: none">
+      <div class="modal-content">
+        <span id="close-modal" class="close">&times;</span>
+        <h2>Comprar</h2>
+        <div class="social-icons">
+          <a id="whatsapp-icon" href="#" target="_blank" aria-label="WhatsApp"
+            ><i class="fa-brands fa-whatsapp"></i
+          ></a>
+          <a id="instagram-icon" href="#" target="_blank" aria-label="Instagram"
+            ><i class="fa-brands fa-instagram"></i
+          ></a>
+          <a id="facebook-icon" href="#" target="_blank" aria-label="Facebook"
+            ><i class="fa-brands fa-facebook"></i
+          ></a>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
